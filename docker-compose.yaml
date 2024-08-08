@@ -1,0 +1,15 @@
+services:
+  backend:
+    image: ${CONTAINER_REGISTRY}/backend:latest
+    build:
+      context: ./
+      target: backend
+    volumes:
+      # exclude node_modules
+      - node_modules:/usr/src/app/node_modules
+      - .:/usr/src/app
+    ports:
+      - "3000:3000"
+
+volumes:
+  node_modules: {}
