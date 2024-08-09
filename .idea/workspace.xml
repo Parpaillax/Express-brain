@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e812778f-0d5a-44a1-b714-25c6dd2b4b23" name="Changes" comment="" />
+    <list default="true" id="e812778f-0d5a-44a1-b714-25c6dd2b4b23" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/api/Teams_API.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/tools/checkAuthTokenMiddleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/tools/checkInputData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/tools/extractBearerToken.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/tools/retrieveGoose.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/tools/sendNotFound.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/users.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,30 +45,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Node.js.app.js.executor": "Run",
-    "Node.js.try-number.js.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/oparpaillon2023/Downloads/tp1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode",
-    "ts.external.directory.path": "C:\\Users\\oparpaillon2023\\AppData\\Local\\JetBrains\\WebStorm 2024.1.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Node.js.app.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.try-number.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/oparpaillon2023/Downloads/goose-api&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\oparpaillon2023\\AppData\\Local\\JetBrains\\WebStorm 2024.1.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\oparpaillon2023\Downloads\tp1\api" />
       <recent name="$PROJECT_DIR$/cypress/e2e" />
       <recent name="$PROJECT_DIR$/views/users" />
       <recent name="$PROJECT_DIR$/routes" />
       <recent name="$PROJECT_DIR$/views" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\oparpaillon2023\Downloads\tp1\views\user" />
@@ -97,7 +110,11 @@
       <workItem from="1675665977901" duration="260000" />
       <workItem from="1722929155446" duration="20353000" />
       <workItem from="1723014983256" duration="18921000" />
-      <workItem from="1723099815146" duration="18668000" />
+      <workItem from="1723099815146" duration="20471000" />
+      <workItem from="1723124264253" duration="4831000" />
+      <workItem from="1723186445100" duration="10501000" />
+      <workItem from="1723198816535" duration="2036000" />
+      <workItem from="1723202983696" duration="5026000" />
     </task>
     <servers />
   </component>

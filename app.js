@@ -4,6 +4,7 @@ import path from 'path';
 import cookieParser from 'cookie-parser';
 import logger from 'morgan';
 import mongoose from 'mongoose';
+import dotenv from 'dotenv';
 
 import flash from 'connect-flash';
 import session from 'express-session';
@@ -12,7 +13,10 @@ import indexRouter from './routes/index.js';
 import usersRouter from './routes/users.js';
 import authRouter  from './routes/auth.js';
 import teamsRouter from './routes/teams.js';
-import leaderboardsRouter from './routes/leaderboards.js'
+import leaderboardsRouter from './routes/leaderboards.js';
+import protectedRouter from './routes/authentication_token.js';
+
+import APITeamsRouter from './api/Teams_API.js'
 
 import adminUser from './services/admin-user.js';
 
@@ -28,6 +32,8 @@ async function connect() {
 await connect();
 
 const app = express()
+
+dotenv.config();
 
 adminUser.createAdmin()
 
@@ -74,10 +80,12 @@ app.use('/users', usersRouter)
 // Définir les routes GET /login et POST /login pour la connexion
 // Définir les routes GET /logout pour la déconnexion
 app.use('/auth', authRouter)
+app.use('/protected', protectedRouter)
 
 // TODO : Créer le fichier routes/team.js ETAPE 4
 // Définir les routes GET /team et POST /team/new
 app.use('/teams', teamsRouter)
+app.use('/api/teams', APITeamsRouter)
 
 //TODO: Créer le fichier routes/leaderboards ETAPE 5
 app.use('/leaderboards', leaderboardsRouter)
